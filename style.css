@@ -13,12 +13,10 @@ html{
 }
 
 @media (min-width: 1200px){
-
     /* particle js style  */
     /* =============================================================================
    HTML5 CSS Reset Minified - Eric Meyer
    ========================================================================== */
-
    html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}
    body{line-height:1}
    article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}
@@ -110,6 +108,7 @@ html{
        background-size: cover;
        background-position: 50% 50%;
        background-repeat: no-repeat;
+       background-attachment: fixed;
     }
     .home{
         position: absolute;
@@ -233,7 +232,7 @@ section .title::after{
     font-size: 22px;
     cursor: pointer;
     display: none;
-    padding: 5px;
+    padding: 6px;
 
     position: relative;
     /* width: 250px; */
@@ -243,7 +242,7 @@ section .title::after{
     background: #DB3774;
     border: none;
     text-align: center;
-    border-radius: 7px;
+    border-radius: 3px;
 }
 
 .menu-btn::before{
@@ -253,8 +252,8 @@ section .title::after{
     content: "";
     left: 0;
     top: 0;
-    border-left: 3px solid #DB3774;
-    border-top: 3px solid #DB3774;
+    /* border-left: 3px solid #DB3774;
+    border-top: 3px solid #DB3774; */
 }
 
 .menu-btn::after{
@@ -264,8 +263,8 @@ section .title::after{
     content: "";
     right: 0;
     bottom: 0;
-    border-right: 3px solid #DB3774;
-    border-bottom: 3px solid #DB3774;
+    /* border-right: 3px solid #DB3774;
+    border-bottom: 3px solid #DB3774; */
 }
 
 
